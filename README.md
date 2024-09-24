@@ -14,5 +14,5 @@ $ dqa research_paper.pdf -q "What are the most relevant citations?"
 
 Add additional instructions with `-a` flag.
 ```bash
-$ dqa research_paper.pdf -q "What are the key discoveries?" -a "Keep the summary succinct"
+$ dqa research_paper.pdf -q "What are the key discoveries?" -a "Keep the summary succinct."
 ```
