@@ -50,32 +50,31 @@ $ dqa ask cv_keenan_graham.pdf -q "What's the most difficult thing that was done
 
 ```bash
 $ dqa --help
-usage: dqa [-h] {set-api-key,ask} ...
+# usage: dqa [-h] {set-api-key,ask} ...
 
-CLI for using Anthropic's LLM to answer a question about a document.
+# CLI for using Anthropic's LLM to answer a question about a document.
 
-positional arguments:
-  {set-api-key,ask}  Available commands.
-    set-api-key      Set Anthropic API key.
-    ask              Ask a question about a document with an LLM.
+# positional arguments:
+#  {set-api-key,ask}  Available commands.
+#    set-api-key      Set Anthropic API key.
+#    ask              Ask a question about a document with an LLM.
 
 $ dqa ask --help
-usage: dqa ask [-h] -q QUESTION [--start-pos START_POS] [--length LENGTH] document_path
+# usage: dqa ask [-h] -q QUESTION [--start-pos START_POS] [--length LENGTH] document_path
 
-positional arguments:
-  document_path         Path to the document (text or PDF). Allowed suffixes are ['.pdf', '.txt', '.tsv', '.csv', '.md', '.py'].
+# positional arguments:
+#  document_path         Path to the document (text or PDF). Allowed suffixes are ['.pdf', '.txt', '.tsv', '.csv', '.md', '.py'].
 
-options:
-  -h, --help            show this help message and exit
-  -q QUESTION, --question QUESTION
-                        Question for the model to answer about the document.
-  --start-pos START_POS
-                        Start position in the document. Use with --length to only pass a chunk of the document to LLM (useful for really long documents).
-  --length LENGTH       Length of document chunk.
+# options:
+#  -q QUESTION, --question QUESTION
+#                        Question for the model to answer about the document.
+#  --start-pos START_POS
+#                        Start position in the document. Use with --length to only pass a chunk of the document to LLM (useful for really long documents).
+#  --length LENGTH       Length of document chunk.
 
 $ dqa set-api-key --help
-usage: dqa set-api-key [-h] api_key
+# usage: dqa set-api-key [-h] api_key
 
-positional arguments:
-  api_key     API key to be set.
+# positional arguments:
+#  api_key     API key to be set.
  ```
