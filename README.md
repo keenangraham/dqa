@@ -25,17 +25,23 @@ $ dqa ask research_paper.pdf -q "What are the key discoveries?"
 
 ```bash
 $ dqa ask cv_keenan_graham.pdf -q "What's the most difficult thing that was done?"
-Asking model "What's the most difficult thing that was done?" with 11317 character long document.
-<title>cv_keenan_graham.pdf</title>
+# ...
+# Asking model "What's the most difficult thing that was done?" with 11317 character long document.
 
-<answer>Based on the information provided in Keenan Graham's CV, one of the most difficult things he has done appears to be establishing an autoscaling genomics data portal for IGVF. This involved complex tasks such as:
+# <title>cv_keenan_graham.pdf</title>
 
-1. Defining all infrastructure as code
-2. Setting up a continuous deployment pipeline
-3. Implementing feature flags for database hot swaps
-4. Automating stateful migrations
-5. Creating scheduled serverless functions for infrastructure management
-6. Developing and maintaining multiple open-source repositories
+# <answer>Based on the information provided in Keenan Graham's CV, one of the most difficult
+# things he has done appears to be establishing an autoscaling genomics data portal for IGVF.
+# This involved complex tasks such as:
 
-This project required a wide range of technical skills and involved designing and implementing complex systems at scale, which likely presented significant challenges and required sophisticated problem-solving abilities.</answer>
+# 1. Defining all infrastructure as code
+# 2. Setting up a continuous deployment pipeline
+# 3. Implementing feature flags for database hot swaps
+# 4. Automating stateful migrations
+# 5. Creating scheduled serverless functions for infrastructure management
+# 6. Developing and maintaining multiple open-source repositories
+
+# This project required a wide range of technical skills and involved designing and implementing
+# complex systems at scale, which likely presented significant challenges and required
+# sophisticated problem-solving abilities.</answer>
 ```
