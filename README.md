@@ -1,5 +1,5 @@
 # DocQA
-Simple document question/answer CLI using Anthropic's LLM API. This allows you to ask a question about a local text file or PDF.
+Simple document question/answer CLI using Anthropic's LLM, which allows you to ask a question about a local text file or PDF.
 
 # Installation
 
