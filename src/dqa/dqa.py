@@ -69,6 +69,7 @@ def load_api_key():
 
 
 def ask(client, name, document, question):
+    print(f'Asking model "{question}" with {len(document)} character long document.')
     prompt = generate_prompt(name, document, question)
     completion = get_completion(client, prompt)
     return completion
@@ -116,7 +117,7 @@ def parse_args():
     ask_parser.add_argument(
         '--length',
         type=int,
-        default=10024,
+        default=30024,
         help='Length of document chunk.'
     )
     return parser.parse_args()
