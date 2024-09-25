@@ -9,7 +9,7 @@ Clone repo and `pip install -e .`
 
 Set Anthropic API key on first use.
 ```bash
-# dqa set-api-key "zzz"
+$ dqa set-api-key "zzz"
 ```
 
 Pass in a PDF and ask a question with the `-q` flag.
