@@ -1,0 +1,24 @@
+[tool.autopep8]
+max_line_length = 120
+
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel"
+]
+
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dqa"
+version = "0.0.1"
+dependencies = [
+    "anthropic==0.34.2",
+    "pypdf==5.0.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.scripts]
+dqa = "dqa:dqa.run"
